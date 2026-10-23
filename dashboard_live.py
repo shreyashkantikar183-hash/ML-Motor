@@ -6,6 +6,7 @@ Reads real data streamed from the ESP32 over USB Serial
 (see motor_stethoscope_firmware.ino). The firmware's MOTOR_TYPE #define
 must match the motor actually wired up; that value is sent in every DATA line.
 
+
 Run with:
     streamlit run dashboard_live.py
 
